@@ -1,0 +1,26 @@
+{
+  "web-page-title": "webpack4.x 入门一篇足矣【https://blog.csdn.net/sinat_17775997/article/details/80816363】",
+  "web-page-title2": "[过期]入门 Webpack，看这篇就够了 https://segmentfault.com/a/1190000006178770",
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "入门Webpack",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "webpack ",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack  --mode development",
+    "build": "webpack --mode production"
+  },
+  "author": "larker",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^1.0.0",
+    "css-loader": "^1.0.1",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
